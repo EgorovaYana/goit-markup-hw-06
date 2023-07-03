@@ -25,14 +25,13 @@
           <a href="./index.html" class="logo"
             >Web<span class="logo-span">Studio</span></a
           >
+
           <ul class="nav-menu">
             <li class="nav-menu-item">
-              <a href="./index.html" class="nav-menu-link">Studio</a>
+              <a href="./index.html" class="nav-menu-link current">Studio</a>
             </li>
             <li class="nav-menu-item">
-              <a href="./portfolio.html" class="nav-menu-link current"
-                >Portfolio</a
-              >
+              <a href="./portfolio.html" class="nav-menu-link">Portfolio</a>
             </li>
             <li class="nav-menu-item">
               <a href="" class="nav-menu-link">Contacts</a>
@@ -53,6 +52,87 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-button js-open-menu">
+          <svg class="menu-button-icon" width="32" height="32">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="mob-menu js-menu-container is-hidden">
+          <button class="modal-btn js-close-menu" type="button">
+            <svg class="modal-btn-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list">
+            <li class="mob-menu-item">
+              <a href="./index.html" class="mob-menu-link">Studio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a
+                href="./portfolio.html"
+                class="mob-menu-link mob-menu-link-current"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mob-menu-item">
+              <a href="#" class="mob-menu-link">Contacts</a>
+            </li>
+          </ul>
+          <div class="mob-menu-bottom">
+            <address class="mob-menu-address">
+              <ul class="mob-menu-address-list">
+                <li class="mob-menu-address-item">
+                  <a
+                    href="tel:+110001111111"
+                    class="mob-menu-address-link mob-menu-address-phone"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="mob-menu-address-item">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="mob-menu-address-link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="social-list">
+              <li class="social-item">
+                <a href="" class="social-item-link">
+                  <svg class="social-item-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-social-icon-first"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-item-link">
+                  <svg class="social-item-icon" width="24" height="24">
+                    <use
+                      href="./images/icons.svg#icon-social-icon-second"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-item-link">
+                  <svg class="social-item-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-social-icon-third"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-item-link">
+                  <svg class="social-item-icon" width="24" height="24">
+                    <use
+                      href="./images/icons.svg#icon-social-icon-fourth"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -85,6 +165,10 @@
               <a href="" class="portfolio-link">
                 <div class="portfolio-overlay-box">
                   <img
+                    srcset="
+                      ./images/card-img-1.jpg    1x,
+                      ./images/card-img-1@2x.jpg 2x
+                    "
                     src="./images/card-img-1.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
@@ -107,6 +191,10 @@
               <a href="" class="portfolio-link">
                 <div class="portfolio-overlay-box">
                   <img
+                    srcset="
+                      ./images/card-img-2.jpg    1x,
+                      ./images/card-img-2@2x.jpg 2x
+                    "
                     src="./images/card-img-2.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
@@ -129,6 +217,10 @@
               <a href="" class="portfolio-link">
                 <div class="portfolio-overlay-box">
                   <img
+                    srcset="
+                      ./images/card-img-3.jpg    1x,
+                      ./images/card-img-3@2x.jpg 2x
+                    "
                     src="./images/card-img-3.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
@@ -151,6 +243,10 @@
               <a href="" class="portfolio-link">
                 <div class="portfolio-overlay-box">
                   <img
+                    srcset="
+                      ./images/card-img-4.jpg    1x,
+                      ./images/card-img-4@2x.jpg 2x
+                    "
                     src="./images/card-img-4.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
@@ -173,6 +269,10 @@
               <a href="" class="portfolio-link">
                 <div class="portfolio-overlay-box">
                   <img
+                    srcset="
+                      ./images/card-img-5.jpg    1x,
+                      ./images/card-img-5@2x.jpg 2x
+                    "
                     src="./images/card-img-5.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
@@ -195,6 +295,10 @@
               <a href="" class="portfolio-link">
                 <div class="portfolio-overlay-box">
                   <img
+                    srcset="
+                      ./images/card-img-6.jpg    1x,
+                      ./images/card-img-6@2x.jpg 2x
+                    "
                     src="./images/card-img-6.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
@@ -217,6 +321,10 @@
               <a href="" class="portfolio-link">
                 <div class="portfolio-overlay-box">
                   <img
+                    srcset="
+                      ./images/card-img-7.jpg    1x,
+                      ./images/card-img-7@2x.jpg 2x
+                    "
                     src="./images/card-img-7.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
@@ -239,6 +347,10 @@
               <a href="" class="portfolio-link">
                 <div class="portfolio-overlay-box">
                   <img
+                    srcset="
+                      ./images/card-img-8.jpg    1x,
+                      ./images/card-img-8@2x.jpg 2x
+                    "
                     src="./images/card-img-8.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
@@ -261,6 +373,10 @@
               <a href="" class="portfolio-link">
                 <div class="portfolio-overlay-box">
                   <img
+                    srcset="
+                      ./images/card-img-9.jpg    1x,
+                      ./images/card-img-9@2x.jpg 2x
+                    "
                     src="./images/card-img-9.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
